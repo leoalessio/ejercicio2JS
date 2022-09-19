@@ -31,15 +31,17 @@
 
   p {
     font-size: 15px;
-    color: gray;
+    color: orange;
     text-align: center;
   }
+
+  
   
   .container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 90px;
+    gap: 12px;
+    padding: 50px 90px;
   }
   
   .form {
@@ -85,14 +87,27 @@
     color: black;
     
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 5px;
     width: 100%;
     margin-top: 15px;
     padding: 20px 30px;
     
   }
+  .h2-cards {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .p-cards {
+    color:black;
+  }
 
+  .img-pizza {
+    width: 400px;
+  }
   h4 {
     text-align: justify;
   }
